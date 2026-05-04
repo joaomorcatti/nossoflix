@@ -276,13 +276,22 @@ button {
   filter: brightness(1);
 }
 
+.scroll-cards-top {
+  gap: var(--gap);
+}
+
 .card-top {
+  position: relative;
   max-width: 200px;
+  margin-left: 130px;
 }
 
 .card-top .card-img-number {
+  position: absolute;
+  top: 21px;
+  left: -148px;
   margin-left: var(--margin);
-  width: 100%;
+  width: 64%;
 }
 
 .card-top .card-img-top {
