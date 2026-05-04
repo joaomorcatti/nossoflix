@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/main-style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b70b1a2a0e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>NossoFlix</title>
+  </head>
+  <body>
+    <header>
+      <h1>NossoFlix</h1>
+
+      <nav>
+        <ul>
+          <li class="header-menu">
+            <a href="#destaque" class="header-menu">Início</a>
+          </li>
+          <li class="header-menu">
+            <a href="#moments" class="header-menu">Momentos Inesquecíveis</a>
+          </li>
+          <li class="header-menu">
+            <a href="#funny" class="header-menu">Momentos Engraçados & Fofos</a>
+          </li>
+          <li class="header-menu">
+            <a href="#top12" class="header-menu">Top 12</a>
+          </li>
+          <li class="header-menu">
+            <a href="#" class="header-menu">Minha Lista</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li class="header-menu">
+            <a href="#" class="header-menu"
+              ><i class="fa-brands fa-sistrix"></i
+            ></a>
+          </li>
+          <li class="header-menu">
+            <a href="#" class="header-menu"
+              ><i class="fa-regular fa-bell"></i
+            ></a>
+          </li>
+          <li class="header-menu">
+            <a href="#" class="header-menu">Perfil</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <main>
+        <section class="poster" id="destaque">
+          <div class="poster-info">
+            <div class="poster-badge">★ Filme em Destaque</div>
+            <h1 class="poster-title">
+              Nossa <span>História</span><br />de Amor
+            </h1>
+            <div class="poster-meta">
+              <span class="match">💚 100% compatíveis</span>
+              <span class="dot">●</span>
+              <span>2024–2025</span>
+              <span class="dot">●</span>
+              <span>365 episódios</span>
+            </div>
+
+            <p class="poster-description">
+              Uma história épica de dois apaixonados que decidiram enfrentar o
+              mundo juntos. Cheio de aventuras, risadas, abraços e momentos
+              inesquecíveis. Uma série que nunca vai terminar.
+            </p>
+            <button class="button-play">
+              <i class="fa-solid fa-play"></i> Assistir
+            </button>
+            <button class="button-info">
+              <i class="fa-solid fa-circle-info"></i> Mais informações
+            </button>
+          </div>
+        </section>
+
+        <section class="section-rows" id="moments">
+          <div class="row-card">
+            <h2 class="row-label">🌟 Momentos Inesquecíveis</h2>
+            <div class="wrapper">
+              <button
+                class="scroll-button button-left"
+                onclick="scrollCont(-250, 'row1')"
+              >
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <div class="scroll-cards" id="row1"></div>
+
+              <button
+                class="scroll-button button-right"
+                onclick="scrollCont(250, 'row1')"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-rows" id="funny">
+          <div class="row-card">
+            <h2 class="row-label">😂 Momentos Engraçados & Fofos</h2>
+            <div class="wrapper">
+              <button
+                class="scroll-button button-left"
+                onclick="scrollCont(-250, 'row2')"
+              >
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <div class="scroll-cards" id="row2"></div>
+
+              <button
+                class="scroll-button button-right"
+                onclick="scrollCont(250, 'row2')"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-rows" id="top12">
+          <!-- 12 flores -->
+          <div class="row-card">
+            <h2 class="row-label">🏆 Top 12 meses = 12 flores</h2>
+            <div class="wrapper">
+              <button
+                class="scroll-button button-left"
+                onclick="scrollCont(-250, 'row3')"
+              >
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <div class="scroll-cards scroll-cards--top" id="row3">
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/1.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/1.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/2.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/2.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/3.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/3.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/4.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/4.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/5.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/5.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/5.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/5.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/5.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/5.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/5.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/5.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/5.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/5.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/5.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/5.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/5.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/5.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+
+                <div class="card card-top">
+                  <img
+                    src="assets/images/numbers/5.png"
+                    alt="Número 1"
+                    class="card-img-number"
+                  />
+                  <img
+                    src="assets/images/flores/5.jpg"
+                    alt="Top 1"
+                    class="card-img-top"
+                  />
+                </div>
+              </div>
+
+              <button
+                class="scroll-button button-right"
+                onclick="scrollCont(250, 'row3')"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="about">
+        <nav>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+        </nav>
+
+        <p>© 2025-2026 - NossoFlix</p>
+      </footer>
+
+      <div id="modal-overlay">
+        <div class="modal">
+          <div class="modal-poster">
+            <img id="modalImg" src="" alt="" />
+            <div class="modal-hero-overlay">
+              <h2 class="modal-title" id="modalTitle"></h2>
+            </div>
+            <button class="modal-exit" onclick="closeModal()">
+              <i class="fa-solid fa-x"></i>
+            </button>
+          </div>
+
+          <p class="modal-desc" id="modalDesc"></p>
+
+          <div class="actions">
+            <button class="play">
+              <i class="fa-solid fa-play"></i>Assistir Agora
+            </button>
+            <button class="list"><i class="fa-solid fa-plus"></i></button>
+            <button class="like"><i class="fa-regular fa-heart"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <script src="assets/scripts/script.js"></script>
+    </div>
+  </body>
+</html>
