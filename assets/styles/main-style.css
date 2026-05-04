@@ -372,12 +372,22 @@ footer > nav > ul > li {
 footer > nav > ul > li > a {
   font-size: 1.5em;
   color: var(--description);
+  transition: color 0.5s;
+}
+
+footer > nav > ul > li > a:hover {
+  color: var(--text);
 }
 
 footer > p {
   margin-top: var(--margin);
   color: var(--description);
   font-size: 0.7em;
+  transition: color 0.5s;
+}
+
+footer > p:hover {
+  color: var(--text);
 }
 
 #modal-overlay {
@@ -435,6 +445,7 @@ footer > p {
   font-family: var(--font-heading);
   font-size: 2.2em;
   letter-spacing: 1px;
+  text-shadow: 2px 4px 20px rgba(0, 0, 0, 0.8);
 }
 
 .modal-exit {
