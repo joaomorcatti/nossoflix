@@ -40,3 +40,6 @@ nossoflix/
   - Implementar navegação por âncoras com scroll suave
   - Construir um carrossel com scroll horizontal e botões de navegação
   - Organizar um projeto real do zero com HTML, CSS e JS puros — com múltiplas páginas, pastas e assets
+
+## 📄 Licença
+MIT License — veja o arquivo [LICENSE](LICENSE) para detalhes.
